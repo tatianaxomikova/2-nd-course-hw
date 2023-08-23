@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  input,
+  select,
+  button {
+    font-family: inherit;
+  }
+  
+.top {
+    height: 1024px;
+    background-image: url(img/top.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.body {
+    background-image: url(img/body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
