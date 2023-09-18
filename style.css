@@ -26,6 +26,7 @@ body {
   padding-top: 217px;
   padding-left: 120px;
 }
+
 .top__big {
   font-size: 64px;
   font-style: normal;
@@ -35,6 +36,7 @@ body {
   width: 760px;
   padding-bottom: 32px;
 }
+
 .top__row {
   color: #FFF;
   font-size: 18px;
@@ -44,6 +46,7 @@ body {
   padding-bottom: 44px;
   width: 481px;
 }
+
 .top__link {
   color: #FFF;
   font-size: 18px;
@@ -57,7 +60,7 @@ body {
   height: 48.6px;
 }
 
-.body {
+.content {
   background-image: url(img/body.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -68,6 +71,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 32px;
+  margin-top: 128px;
 }
 
 .item {
@@ -80,6 +84,7 @@ body {
   width: 379px;
   display: flex;
   align-items: flex-end;
+  box-sizing: border-box;
   padding-bottom: 32px;
   padding-left: 32px;
 }
