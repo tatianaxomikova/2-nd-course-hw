@@ -62,6 +62,9 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.items {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -73,7 +76,7 @@ body {
 
 .item {
     color: #FFF;
-    font-size: 24px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 600;
     line-height: 32px;

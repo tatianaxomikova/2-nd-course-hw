@@ -26,7 +26,6 @@ body {
   padding-top: 217px;
   padding-left: 120px;
 }
-
 .top__big {
   font-size: 64px;
   font-style: normal;
@@ -36,7 +35,6 @@ body {
   width: 760px;
   padding-bottom: 32px;
 }
-
 .top__row {
   color: #FFF;
   font-size: 18px;
@@ -46,7 +44,6 @@ body {
   padding-bottom: 44px;
   width: 481px;
 }
-
 .top__link {
   color: #FFF;
   font-size: 18px;
@@ -65,18 +62,21 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+.items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin-top: 128px;
+  padding-top: 128px;
 }
 
 .item {
   color: #FFF;
-  font-size: 24px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 600;
   line-height: 32px;
