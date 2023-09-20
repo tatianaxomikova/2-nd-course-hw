@@ -57,13 +57,16 @@ alert (a);*/
 // let age = prompt("Сколько вам лет?");
 // alert(age);
 
-const user = {
-    name: "Mickey",
-    age: 14,
-    isAdmin: false,
-}
-user["city of residence"] = "Paris";
-user.age = 20;
-delete user["city of residence"];
-let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert (info);
+// const user = {
+//     name: "Mickey",
+//     age: 14,
+//     isAdmin: false,
+// }
+// user["city of residence"] = "Paris";
+// user.age = 20;
+// delete user["city of residence"];
+// let info = prompt("Какую информацию хотите узнать о пользователе?","name","age","isAdmi");
+// alert( user[info] );
+
+// let firstName = prompt('Напишите Ваше имя!',);
+// alert("Привет "+ firstName + " !");
