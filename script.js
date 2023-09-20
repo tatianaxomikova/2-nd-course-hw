@@ -45,11 +45,25 @@ alert (a);*/
 // let result = a% b;
 // alert (result);
 
-let num = 1;
-num = num + 5;
-num = num - 3;
-num = num * 7;
-num = num / 3;
-num = ++num;
-num = --num;
-alert(num);
+// let num = 1;
+// num += 5;
+// num -= 3;
+// num *= 7;
+// num /= 3;
+// num = ++num;
+// num = --num;
+// alert(num);
+
+// let age = prompt("Сколько вам лет?");
+// alert(age);
+
+const user = {
+    name: "Mickey",
+    age: 14,
+    isAdmin: false,
+}
+user["city of residence"] = "Paris";
+user.age = 20;
+delete user["city of residence"];
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert (info);
