@@ -68,5 +68,5 @@ alert (a);*/
 // let info = prompt("Какую информацию хотите узнать о пользователе?","name","age","isAdmi");
 // alert( user[info] );
 
-// let firstName = prompt('Напишите Ваше имя!',);
-// alert("Привет "+ firstName + " !");
+let firstName = prompt('Напишите Ваше имя!',);
+alert(`Привет ${firstName}!`);
