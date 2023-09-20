@@ -35,7 +35,21 @@ alert (a);*/
 // let result = b-c;
 // alert (result);
 
-let a = 2;
-let b = 5;
-let result = a ** b;
-alert (result);
+// let a = 2;
+// let b = 5;
+// let result = a ** b;
+// alert (result);
+
+// let a = 9;
+// let b = 2;
+// let result = a% b;
+// alert (result);
+
+let num = 1;
+num = num + 5;
+num = num - 3;
+num = num * 7;
+num = num / 3;
+num = ++num;
+num = --num;
+alert(num);
