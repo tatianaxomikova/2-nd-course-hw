@@ -1,7 +1,6 @@
-/*let a = 10;
-alert (a);*/
-
-// let a = 20;
+// let a = 10;
+// alert (a);
+// a = 20;
 // alert (a);
 
 // let ageIphone = "Год выпуска первого iPhone 2007.";
@@ -68,5 +67,5 @@ alert (a);*/
 // let info = prompt("Какую информацию хотите узнать о пользователе?","name","age","isAdmi");
 // alert( user[info] );
 
-let firstName = prompt('Напишите Ваше имя!',);
-alert(`Привет ${firstName}!`);
+// let firstName = prompt('Напишите Ваше имя!',);
+// alert(`Привет ${firstName}!`);
