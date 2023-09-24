@@ -103,21 +103,30 @@
 // let result = Number(a) + Number(b);
 // alert(result);
 
-let monthNumber = Number(prompt('Введите номер месяца!'));
+// let monthNumber = Number(prompt('Введите номер месяца!'));
 
-switch (monthNumber) {
-    case :
-        console.log('Зимний месяц')
-        break;
-    case :
-        console.log('Весенний месяц')
-        break;
-    case :
-        console.log('Летний месяц')
-        break;
-    case :
-        console.log('Осенний месяц')
-        break;
-    default:
-        break;
-}
+// switch (monthNumber) {
+//     case 12:
+//     case 1:
+//     case 2:
+//         console.log('Зимний месяц')
+//         break;
+//     case 3:
+//     case 4:
+//     case 5:
+//         console.log('Весенний месяц')
+//         break;
+//     case 6:
+//     case 7:
+//     case 8:
+//         console.log('Летний месяц')
+//         break;
+//     case 9:
+//     case 10:
+//     case 11:
+//         console.log('Осенний месяц')
+//         break;
+//     default:
+//         console.log('Введите, пожалуйста число от 1-12')
+//         break;
+// }
