@@ -69,3 +69,55 @@
 
 // let firstName = prompt('Напишите Ваше имя!',);
 // alert(`Привет ${firstName}!`);
+
+// let password = String('пароль');
+
+// let userPassword = prompt("Введите пароль")
+
+// if (userPassword === password) {
+//     console.log("Пароль введен верно");
+// } else {
+//     console.log("Пароль введен неправильно");
+// }
+
+// let c = -3;
+
+// if (c > 0 &&  c < 10 ) {
+//     console.log ("Верно");
+// } else {
+//     console.log ("Неверно");
+// }
+
+// let d = 15;
+// let e = 0;
+
+// if (d > 100 || e > 100) { 
+//     console.log ("Верно")
+// } else {
+//     console.log ("Неверно")
+// }
+
+// let a = '2';
+// let b = '3';
+
+// let result = Number(a) + Number(b);
+// alert(result);
+
+let monthNumber = Number(prompt('Введите номер месяца!'));
+
+switch (monthNumber) {
+    case :
+        console.log('Зимний месяц')
+        break;
+    case :
+        console.log('Весенний месяц')
+        break;
+    case :
+        console.log('Летний месяц')
+        break;
+    case :
+        console.log('Осенний месяц')
+        break;
+    default:
+        break;
+}
