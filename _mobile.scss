@@ -1,0 +1,14 @@
+@media (max-width:767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+.top {
+    height: 735px;
+    background-image: url(./img/topback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
