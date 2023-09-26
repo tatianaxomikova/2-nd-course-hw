@@ -57,6 +57,11 @@ body {
     }
 }
 
+.top__link:hover {
+    border-radius: 30px;
+    background: #EB443F;
+}
+
 .content {
     background-image: url(img/body.jpg);
     background-repeat: no-repeat;
@@ -89,6 +94,12 @@ body {
     padding-left: 32px;
 }
 
+.item:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0.00) 0%, #001944 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
 .item_1 {
   background-image: url(img/game1.svg);
 }
@@ -101,4 +112,4 @@ body {
   background-image: url(img/game3.svg);
 }
 
-@import "mobile.scss";
+@import "mobile";

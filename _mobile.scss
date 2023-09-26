@@ -11,4 +11,9 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    &__row {
+        justify-content: center;
+        width: 343px;
+    }
 }
+
