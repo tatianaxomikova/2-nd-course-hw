@@ -140,3 +140,36 @@
 // 	    count++; 
 // }
 
+// let i=1;
+// while (i <6) {
+//     console.log(i);
+//     i++;
+// }
+
+// let count = 7;
+// do {
+//     console.log(count);
+// } while (count < 23);
+
+// let name = {
+//     'Коля': "200",
+//     'Вася': "300",
+//     'Петя': "400",
+// };
+// for (let name in obj) {
+//     alert('${name} - зарплата ${obj[name]} долларов');
+// }
+
+// let n = 1000;
+// while (true) {
+//     n/=2;
+//     console.log(n);
+//     if (n <= 50){
+//         break;
+//     }
+// }
+// let num = 5;
+
+for (let fri = 6; fri <=31; fri++) {
+    console.log("Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет."); 
+}
