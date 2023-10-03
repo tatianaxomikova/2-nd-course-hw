@@ -149,6 +149,7 @@
 // let count = 7;
 // do {
 //     console.log(count);
+//     count++
 // } while (count < 23);
 
 // let name = {
@@ -156,8 +157,8 @@
 //     'Вася': "300",
 //     'Петя': "400",
 // };
-// for (let name in obj) {
-//     alert('${name} - зарплата ${obj[name]} долларов');
+// for (let obj in name) {
+//     alert(`${obj} - зарплата ${obj[obj]} долларов`);
 // }
 
 // let n = 1000;
@@ -170,7 +171,6 @@
 // }
 // let num = 5;
 
-for (let fri = 6; fri <=31; fri++) {
-    
-    console.log("Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет."); 
+for (let fri = 6; fri <=31; fri+=7) {
+    console.log(`Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет.`); 
 }
