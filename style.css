@@ -57,6 +57,11 @@ body {
   height: 48.6px;
 }
 
+.top__link:hover {
+  border-radius: 30px;
+  background: #EB443F;
+}
+
 .content {
   background-image: url(img/body.jpg);
   background-repeat: no-repeat;
@@ -89,6 +94,12 @@ body {
   padding-left: 32px;
 }
 
+.item:hover {
+  border-radius: 16px;
+  border: 3px solid #44D2FF;
+  background: linear-gradient(180deg, rgba(39, 1, 15, 0) 0%, #001944 100%), url(<path-to-image>), lightgray 50%/cover no-repeat;
+}
+
 .item_1 {
   background-image: url(img/game1.svg);
 }
@@ -99,4 +110,46 @@ body {
 
 .item_3 {
   background-image: url(img/game3.svg);
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    height: 735px;
+    background-image: url(./img/topback.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .top__big {
+    width: 343px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-left: 0px;
+  }
+  .top__row {
+    justify-content: center;
+    width: 343px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+    padding-bottom: 32px;
+  }
+  .top__links {
+    display: flex;
+    justify-content: center;
+  }
+  .items {
+    padding-bottom: 128px;
+  }
 }/*# sourceMappingURL=style.css.map */
