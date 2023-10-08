@@ -131,3 +131,46 @@
 //         break;
 // }
 
+
+
+
+// let count = 0;
+// while (count < 2) { 
+// 		console.log("Привет!"); 
+// 	    count++; 
+// }
+
+// let i=1;
+// while (i <6) {
+//     console.log(i);
+//     i++;
+// }
+
+// let count = 7;
+// do {
+//     console.log(count);
+//     count++
+// } while (count < 23);
+
+// let name = {
+//     'Коля': "200",
+//     'Вася': "300",
+//     'Петя': "400",
+// };
+// for (let obj in name) {
+//     alert(`${obj} - зарплата ${obj[obj]} долларов`);
+// }
+
+// let n = 1000;
+// while (true) {
+//     n/=2;
+//     console.log(n);
+//     if (n <= 50){
+//         break;
+//     }
+// }
+// let num = 5;
+
+for (let fri = 6; fri <=31; fri+=7) {
+    console.log(`Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет.`); 
+}
