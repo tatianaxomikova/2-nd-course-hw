@@ -170,7 +170,19 @@
 //     }
 // }
 // let num = 5;
+// 
+// for (let fri = 6; fri <=31; fri+=7) {
+//     console.log(`Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет.`); 
+// }
+// ДЗ 5 задание 1
+// function nambers(a,b) {
+//     if (a >= b) {
+//         console.log(b)
+//     } 
+// }
+// let result = nambers(6,6);
 
-for (let fri = 6; fri <=31; fri+=7) {
-    console.log(`Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет.`); 
+//задание 2
+function parity (confirm) {
+    
 }
