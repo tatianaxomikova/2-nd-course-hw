@@ -181,8 +181,33 @@
 //     } 
 // }
 // let result = nambers(6,6);
-
 //задание 2
-function parity (confirm) {
-    
-}
+
+// function parity (number) {
+//     let userNumber = prompt (number);
+//     if (userNumber % 2 == 0) {
+//         console.log ("Число четное");
+//     } else {
+//         console.log ("Число нечетное");
+//     }
+// }
+
+// parity ("Введите число:");
+
+// задание 3.1
+
+// function square(num) {
+// 	console.log(num ** 2);
+// }
+// let result = square(3);
+
+// ЗАДАНИЕ 3.2
+
+// function square(num) {
+// 	return num ** 2;
+// }
+// let result = square(3);
+// console.log(result);
+
+// задание 4
+
