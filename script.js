@@ -131,9 +131,6 @@
 //         break;
 // }
 
-
-
-
 // let count = 0;
 // while (count < 2) { 
 // 		console.log("Привет!"); 
@@ -211,3 +208,16 @@
 
 // задание 4
 
+
+function years (number) {
+    let userAge = prompt (number);
+    if (userAge < 0) {
+        console.log ("Вы ввели неправильное значение");
+    } else if ( userAge <= 12) {
+        console.log ("Привет, друг!");
+    } else {
+        console.log ("Добро пожаловать!");
+    }
+}
+
+years ("Сколько Вам лет?");
