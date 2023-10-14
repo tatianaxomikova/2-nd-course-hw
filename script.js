@@ -208,16 +208,24 @@
 
 // задание 4
 
+// function years (number) {
+//     let userAge = prompt (number);
+//     if (userAge < 0) {
+//         console.log ("Вы ввели неправильное значение");
+//     } else if ( userAge <= 12) {
+//         console.log ("Привет, друг!");
+//     } else {
+//         console.log ("Добро пожаловать!");
+//     }
+// }
 
-function years (number) {
-    let userAge = prompt (number);
-    if (userAge < 0) {
-        console.log ("Вы ввели неправильное значение");
-    } else if ( userAge <= 12) {
-        console.log ("Привет, друг!");
-    } else {
-        console.log ("Добро пожаловать!");
-    }
-}
+// years ("Сколько Вам лет?");
 
-years ("Сколько Вам лет?");
+// задание 5
+
+const sum = (a, b) => {
+    if (Number.isNaN(a) || Number.isNaN(b)) return a.toString() + b.toString();
+    return a + b;
+    };
+
+    

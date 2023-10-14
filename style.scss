@@ -112,4 +112,17 @@ body {
   background-image: url(img/game3.svg);
 }
 
+.play {
+  background-image: url(img/Play.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.seasons {
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+}
+
 @import "mobile";
