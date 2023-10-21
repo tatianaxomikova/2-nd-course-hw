@@ -209,23 +209,49 @@
 // задание 4
 
 // function years (number) {
-//     let userAge = prompt (number);
-//     if (userAge < 0) {
+//     if (number < 0) {
 //         console.log ("Вы ввели неправильное значение");
-//     } else if ( userAge <= 12) {
+//     } else if ( number <= 12) {
 //         console.log ("Привет, друг!");
 //     } else {
 //         console.log ("Добро пожаловать!");
 //     }
 // }
-
-// years ("Сколько Вам лет?");
+// let userAge = prompt ("Сколько Вам лет?");
+// years (userAge);
 
 // задание 5
 
-const sum = (a, b) => {
-    if (Number.isNaN(a) || Number.isNaN(b)) return a.toString() + b.toString();
-    return a + b;
-    };
+// const creation = (a, b) => {
+//     if (isNaN(a) || isNaN(b)) {
+//         return 'Одно или оба значения не являются числом'; 
+//     } else {
+//         return a * b;
+//     }
+//     };
+// const result = creation(5,6);
+// const result2 = creation('Число', 1);
+// console.log(result,result2)
 
+// Вариант 2
+// const creation = (a, b) => {
+//     if (isNaN(a) || isNaN(b)) return 'Одно или оба значения не являются числом'; 
+//     return a * b;
+//     };
+// const result = creation(5,6);
+// const result2 = creation('Число', 1);
+// console.log(result,result2)
+
+// Задание 6
+
+function cube (number) {
+    if (isNaN(number)) {
+       return 'Переданный параметр не является числом';
+    } else { 
+        return number^2 }
+       console.log ( '${number} в кубе равняется <получившееся значение>');
     
+}
+    
+let userNum = prompt ("Ведите число"); 
+cube (userNum);
