@@ -244,14 +244,19 @@
 
 // Задание 6
 
-function cube (number) {
-    if (isNaN(number)) {
-       return 'Переданный параметр не является числом';
-    } else { 
-        return number^2 }
-       console.log ( '${number} в кубе равняется <получившееся значение>');
-    
-}
-    
-let userNum = prompt ("Ведите число"); 
-cube (userNum);
+// const cubeNumber = () => {
+//     let userInput = prompt('Введите число:');
+//     let number = parseFloat(userInput);
+
+//     if (isNaN(number)) {
+//         return 'Переданный параметр не является числом';
+//     } else {
+//         let result = number ** 3;
+//         return `${number} в кубе равняется ${result}`;
+//     }
+// };
+
+// console.log(cubeNumber());
+
+// задание 7.
+
