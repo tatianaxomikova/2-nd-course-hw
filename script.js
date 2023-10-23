@@ -260,3 +260,27 @@
 
 // задание 7.
 
+function yardage() {
+    return 3,14*this.radius**2;
+}
+    function perimeter() {
+        return 2*this.radius*3,14;
+}
+    const circle1 = {
+        radius: 5,
+
+        getArea: yardage,
+        getPerimeter: perimeter,
+};
+
+    const circle2 = {
+        radius:6,
+
+        getArea: yardage,
+        getPerimeter: perimeter,
+    };
+
+console.log(circle1. getArea());
+console.log(circle1. getPerimeter());
+console.log(circle2. getArea());
+console.log(circle2. getPerimeter());
