@@ -290,13 +290,13 @@
 const monthNumber = () => {
     let userNumberMonth = Number(prompt('Введите номер месяца!'));
 
-    if (12 && 1 && 2) {
+    if (userNumberMonth == 12 || userNumberMonth == 1 || userNumberMonth == 2) {
         return('Зима')   
-    } else if (3 || 4 || 5) {
+    } else if (userNumberMonth == 3 || userNumberMonth == 4 || userNumberMonth == 5) {
         return('Весна')   
-    } else if (6 || 7 || 8) {
+    } else if (userNumberMonth == 6 || userNumberMonth == 7 || userNumberMonth == 8) {
         return('Лето')   
-    } else if (9 || 10 || 11) {
+    } else if (userNumberMonth == 9 || userNumberMonth == 10 || userNumberMonth == 11) {
         return('Осень')   
     } else {
         return('Введите, пожалуйста число от 1-12')
