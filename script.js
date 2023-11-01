@@ -174,10 +174,13 @@
 // ДЗ 5 задание 1
 // function nambers(a,b) {
 //     if (a >= b) {
-//         console.log(b)
+//         return(b)
 //     } 
 // }
 // let result = nambers(6,6);
+// let result1 = nambers(8,4);
+// console.log (result);
+// console.log (result1);
 //задание 2
 
 // function parity (number) {
@@ -200,10 +203,10 @@
 
 // ЗАДАНИЕ 3.2
 
-// function square(num) {
+// function foursquare(num) {
 // 	return num ** 2;
 // }
-// let result = square(3);
+// let result = foursquare(3);
 // console.log(result);
 
 // задание 4
@@ -245,14 +248,13 @@
 // Задание 6
 
 // const cubeNumber = () => {
-//     let userInput = prompt('Введите число:');
-//     let number = parseFloat(userInput);
+//     let userInput = Number(prompt('Введите число:'));
 
-//     if (isNaN(number)) {
+//     if (isNaN(userInput)) {
 //         return 'Переданный параметр не является числом';
 //     } else {
-//         let result = number ** 3;
-//         return `${number} в кубе равняется ${result}`;
+//         let result = userInput ** 3;
+//         return `${userInput} в кубе равняется ${result}`;
 //     }
 // };
 
@@ -260,27 +262,43 @@
 
 // задание 7.
 
-function yardage() {
-    return 3,14*this.radius**2;
+// function yardage() {
+//     return 3.14*this.radius**2;
+// }
+// function perimeter() {
+//     return 2*this.radius*3.14;
+// }
+//     const circle1 = {
+//         radius: 5,
+
+//         getArea: yardage,
+//         getPerimeter: perimeter,
+// };
+
+//     const circle2 = {
+//         radius:6,
+
+//         getArea: yardage,
+//         getPerimeter: perimeter,
+//     };
+
+// console.log(circle1. getArea());
+// console.log(circle1. getPerimeter());
+// console.log(circle2. getArea());
+// console.log(circle2. getPerimeter());
+
+const monthNumber = () => {
+    let userNumberMonth = Number(prompt('Введите номер месяца!'));
+
+    if (12 || 1 || 2) {
+        return('Зима')   
+    } else if (3 || 4 || 5) {
+        return('Весна')   
+    } else if (6 || 7 || 8) {
+        return('Лето')   
+    } else if (9 || 10 || 11) {
+        return('Осень')   
+    } else {
+        return('Введите, пожалуйста число от 1-12')
+    }
 }
-    function perimeter() {
-        return 2*this.radius*3,14;
-}
-    const circle1 = {
-        radius: 5,
-
-        getArea: yardage,
-        getPerimeter: perimeter,
-};
-
-    const circle2 = {
-        radius:6,
-
-        getArea: yardage,
-        getPerimeter: perimeter,
-    };
-
-console.log(circle1. getArea());
-console.log(circle1. getPerimeter());
-console.log(circle2. getArea());
-console.log(circle2. getPerimeter());
