@@ -290,7 +290,7 @@
 const monthNumber = () => {
     let userNumberMonth = Number(prompt('Введите номер месяца!'));
 
-    if (12 || 1 || 2) {
+    if (12 && 1 && 2) {
         return('Зима')   
     } else if (3 || 4 || 5) {
         return('Весна')   
@@ -302,3 +302,5 @@ const monthNumber = () => {
         return('Введите, пожалуйста число от 1-12')
     }
 }
+
+console.log(monthNumber());
