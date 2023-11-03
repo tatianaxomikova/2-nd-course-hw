@@ -185,17 +185,18 @@
 // console.log (result1);
 //задание 2
 
-function parity (number) {
-    let userNumber = prompt (number);
-    if (userNumber % 2 == 0) {
-        return ("Число четное");
-    } else {
-        return ("Число нечетное");
-    }
-}
+// function parity (userNumber) {
+//     if (userNumber % 2 == 0) {
+//         return ("Число четное");
+//     } else {
+//         return ("Число нечетное");
+//     }
+// }
 
-parity ("Введите число:");
-
+// let result = parity(8);
+// console.log(result);
+// let results = parity(11);
+// console.log(results);
 // задание 3.1
 
 // function square(num) {
@@ -289,20 +290,20 @@ parity ("Введите число:");
 // console.log(circle2. getArea());
 // console.log(circle2. getPerimeter());
 
-// const monthNumber = () => {
-//     let userNumberMonth = Number(prompt('Введите номер месяца!'));
+const monthNumber = () => {
+    let userNumberMonth = Number(prompt('Введите номер месяца!'));
 
-//     if (userNumberMonth == 12 || userNumberMonth == 1 || userNumberMonth == 2) {
-//         return('Зима')   
-//     } else if (userNumberMonth == 3 || userNumberMonth == 4 || userNumberMonth == 5) {
-//         return('Весна')   
-//     } else if (userNumberMonth == 6 || userNumberMonth == 7 || userNumberMonth == 8) {
-//         return('Лето')   
-//     } else if (userNumberMonth == 9 || userNumberMonth == 10 || userNumberMonth ==11) {
-//         return('Осень')   
-//     } else {
-//         return('Введите, пожалуйста число от 1-12')
-//     }
-// }
+    if (userNumberMonth == 12 || userNumberMonth == 1 || userNumberMonth == 2) {
+        return('Зима')   
+    } else if (userNumberMonth == 3 || userNumberMonth == 4 || userNumberMonth == 5) {
+        return('Весна')   
+    } else if (userNumberMonth == 6 || userNumberMonth == 7 || userNumberMonth == 8) {
+        return('Лето')   
+    } else if (userNumberMonth == 9 || userNumberMonth == 10 || userNumberMonth ==11) {
+        return('Осень')   
+    } else {
+        return('Введите, пожалуйста число от 1-12')
+    }
+}
 
-// console.log(monthNumber());
+console.log(monthNumber());
