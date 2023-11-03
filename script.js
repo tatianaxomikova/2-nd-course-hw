@@ -174,8 +174,10 @@
 // ДЗ 5 задание 1
 // function nambers(a,b) {
 //     if (a >= b) {
-//         return(b)
-//     } 
+//         return(b);
+//     } else {
+//         return(a);
+//     }
 // }
 // let result = nambers(6,6);
 // let result1 = nambers(8,4);
@@ -183,16 +185,16 @@
 // console.log (result1);
 //задание 2
 
-// function parity (number) {
-//     let userNumber = prompt (number);
-//     if (userNumber % 2 == 0) {
-//         console.log ("Число четное");
-//     } else {
-//         console.log ("Число нечетное");
-//     }
-// }
+function parity (number) {
+    let userNumber = prompt (number);
+    if (userNumber % 2 == 0) {
+        return ("Число четное");
+    } else {
+        return ("Число нечетное");
+    }
+}
 
-// parity ("Введите число:");
+parity ("Введите число:");
 
 // задание 3.1
 
@@ -287,20 +289,20 @@
 // console.log(circle2. getArea());
 // console.log(circle2. getPerimeter());
 
-const monthNumber = () => {
-    let userNumberMonth = Number(prompt('Введите номер месяца!'));
+// const monthNumber = () => {
+//     let userNumberMonth = Number(prompt('Введите номер месяца!'));
 
-    if (userNumberMonth == 12 || userNumberMonth == 1 || userNumberMonth == 2) {
-        return('Зима')   
-    } else if (userNumberMonth == 3 || userNumberMonth == 4 || userNumberMonth == 5) {
-        return('Весна')   
-    } else if (userNumberMonth == 6 || userNumberMonth == 7 || userNumberMonth == 8) {
-        return('Лето')   
-    } else if (userNumberMonth == 9 || userNumberMonth == 10 || userNumberMonth == 11) {
-        return('Осень')   
-    } else {
-        return('Введите, пожалуйста число от 1-12')
-    }
-}
+//     if (userNumberMonth == 12 || userNumberMonth == 1 || userNumberMonth == 2) {
+//         return('Зима')   
+//     } else if (userNumberMonth == 3 || userNumberMonth == 4 || userNumberMonth == 5) {
+//         return('Весна')   
+//     } else if (userNumberMonth == 6 || userNumberMonth == 7 || userNumberMonth == 8) {
+//         return('Лето')   
+//     } else if (userNumberMonth == 9 || userNumberMonth == 10 || userNumberMonth ==11) {
+//         return('Осень')   
+//     } else {
+//         return('Введите, пожалуйста число от 1-12')
+//     }
+// }
 
-console.log(monthNumber());
+// console.log(monthNumber());
