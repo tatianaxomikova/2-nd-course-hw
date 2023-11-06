@@ -32,3 +32,11 @@
 // numbers.sort();
 // numbers.pop();
 // console.log(numbers);
+
+// const numb = [9, 8, 7, 6, 5];
+// let userNum = Number(prompt('Угадай число!'));
+// if (numb.includes(userNum)) {
+//     alert ('Угадал!');
+// } else {
+//     alert ('Не угадал!');
+// }
