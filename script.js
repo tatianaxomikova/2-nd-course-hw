@@ -131,9 +131,6 @@
 //         break;
 // }
 
-
-
-
 // let count = 0;
 // while (count < 2) { 
 // 		console.log("Привет!"); 
@@ -170,7 +167,143 @@
 //     }
 // }
 // let num = 5;
+// 
+// for (let fri = 6; fri <=31; fri+=7) {
+//     console.log(`Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет.`); 
+// }
+// ДЗ 5 задание 1
+// function nambers(a,b) {
+//     if (a >= b) {
+//         return b;
+//     } else {
+//         return a;
+//     }
+// }
+// let result = nambers(6,6);
+// let result1 = nambers(8,4);
+// console.log (result);
+// console.log (result1);
+//задание 2
 
-for (let fri = 6; fri <=31; fri+=7) {
-    console.log(`Сегодня пятница, ${fri}-е число. Необходимо подготовить отчет.`); 
+// function parity (userNumber) {
+//     if (userNumber % 2 === 0) {
+//         return ("Число четное");
+//     } else {
+//         return ("Число нечетное");
+//     }
+// }
+
+// let result = parity(8);
+// console.log(result);
+// let results = parity(11);
+// console.log(results);
+// задание 3.1
+
+// function square(num) {
+// 	console.log(num ** 2);
+// }
+// let result = square(3);
+
+// ЗАДАНИЕ 3.2
+
+// function foursquare(num) {
+// 	return num ** 2;
+// }
+// let result = foursquare(3);
+// console.log(result);
+
+// задание 4
+
+// function years (number) {
+//     if (number < 0) {
+//         console.log ("Вы ввели неправильное значение");
+//     } else if ( number <= 12) {
+//         console.log ("Привет, друг!");
+//     } else {
+//         console.log ("Добро пожаловать!");
+//     }
+// }
+// let userAge = prompt ("Сколько Вам лет?");
+// years (userAge);
+
+// задание 5
+
+// const creation = (a, b) => {
+//     if (isNaN(a) || isNaN(b)) {
+//         return 'Одно или оба значения не являются числом'; 
+//     } else {
+//         return a * b;
+//     }
+//     };
+// const result = creation(5,6);
+// const result2 = creation('Число', 1);
+// console.log(result,result2)
+
+// Вариант 2
+// const creation = (a, b) => {
+//     if (isNaN(a) || isNaN(b)) return 'Одно или оба значения не являются числом'; 
+//     return a * b;
+//     };
+// const result = creation(5,6);
+// const result2 = creation('Число', 1);
+// console.log(result,result2)
+
+// Задание 6
+
+// const cubeNumber = () => {
+//     let userInput = Number(prompt('Введите число:'));
+
+//     if (isNaN(userInput)) {
+//         return 'Переданный параметр не является числом';
+//     } else {
+//         let result = userInput ** 3;
+//         return `${userInput} в кубе равняется ${result}`;
+//     }
+// };
+
+// console.log(cubeNumber());
+
+// задание 7.
+
+// function yardage() {
+//     return 3.14*this.radius**2;
+// }
+// function perimeter() {
+//     return 2*this.radius*3.14;
+// }
+//     const circle1 = {
+//         radius: 5,
+
+//         getArea: yardage,
+//         getPerimeter: perimeter,
+// };
+
+//     const circle2 = {
+//         radius:6,
+
+//         getArea: yardage,
+//         getPerimeter: perimeter,
+//     };
+
+// console.log(circle1. getArea());
+// console.log(circle1. getPerimeter());
+// console.log(circle2. getArea());
+// console.log(circle2. getPerimeter());
+
+const monthNumber = () => {
+    let userNumberMonth = Number(prompt('Введите номер месяца!'));
+
+    if (userNumberMonth === 12 || userNumberMonth === 1 || userNumberMonth === 2) {
+        return('Зима')   
+    } else if (userNumberMonth === 3 || userNumberMonth === 4 || userNumberMonth === 5) {
+        return('Весна')   
+    } else if (userNumberMonth === 6 || userNumberMonth === 7 || userNumberMonth === 8) {
+        return('Лето')   
+    } else if (userNumberMonth === 9 || userNumberMonth === 10 || userNumberMonth === 11) {
+        return('Осень')   
+    } else {
+        return('Введите, пожалуйста число от 1-12')
+    }
 }
+
+console.log(monthNumber());
