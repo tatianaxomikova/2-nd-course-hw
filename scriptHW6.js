@@ -12,18 +12,23 @@
 // union = union.join(' ');
 // console.log(union);
 
-// const array = []
+// const array = [];
 // for(let i = 1; i <= 3; i++) {
 //   array.push([]);
 // }
-// let result = [array]
-// for(let num = 1; num <= 3; num++) {
-//     num.push([]);
-//     num.join([]);
-//   }
 
+// const num = result;
+// for(let num = 1; num <= 3; num++) {
+//     num.push([1]);
+//   }
+// num.join([]);
 // console.log (num);
 
 // const one = [1, 1, 1];
 // one.push(2, 2, 2);
 // console.log (one);
+
+// const numbers = [9, 8, 7, 'a', 6, 5];
+// numbers.sort();
+// numbers.pop();
+// console.log(numbers);
