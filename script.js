@@ -174,9 +174,9 @@
 // ДЗ 5 задание 1
 // function nambers(a,b) {
 //     if (a >= b) {
-//         return(b);
+//         return b;
 //     } else {
-//         return(a);
+//         return a;
 //     }
 // }
 // let result = nambers(6,6);
@@ -186,7 +186,7 @@
 //задание 2
 
 // function parity (userNumber) {
-//     if (userNumber % 2 == 0) {
+//     if (userNumber % 2 === 0) {
 //         return ("Число четное");
 //     } else {
 //         return ("Число нечетное");
@@ -293,13 +293,13 @@
 const monthNumber = () => {
     let userNumberMonth = Number(prompt('Введите номер месяца!'));
 
-    if (userNumberMonth == 12 || userNumberMonth == 1 || userNumberMonth == 2) {
+    if (userNumberMonth === 12 || userNumberMonth === 1 || userNumberMonth === 2) {
         return('Зима')   
-    } else if (userNumberMonth == 3 || userNumberMonth == 4 || userNumberMonth == 5) {
+    } else if (userNumberMonth === 3 || userNumberMonth === 4 || userNumberMonth === 5) {
         return('Весна')   
-    } else if (userNumberMonth == 6 || userNumberMonth == 7 || userNumberMonth == 8) {
+    } else if (userNumberMonth === 6 || userNumberMonth === 7 || userNumberMonth === 8) {
         return('Лето')   
-    } else if (userNumberMonth == 9 || userNumberMonth == 10 || userNumberMonth ==11) {
+    } else if (userNumberMonth === 9 || userNumberMonth === 10 || userNumberMonth === 11) {
         return('Осень')   
     } else {
         return('Введите, пожалуйста число от 1-12')
