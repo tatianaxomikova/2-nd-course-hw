@@ -17,12 +17,18 @@
 //   array.push([]);
 // }
 
-// const num = result;
-// for(let num = 1; num <= 3; num++) {
-//     num.push([1]);
+// const numRows=3;
+// const numCols = 3;
+// const value = 1;
+// const multliArray = [];
+// for(let i = 0; i < numRows; i++) {
+//     const row = [];
+//     for (let j = 0; j < numCols; j++) {
+//         row.push(value);
+//     }
+//     multliArray.push(row);
 //   }
-// num.join([]);
-// console.log (num);
+// console.log (multliArray);
 
 // const one = [1, 1, 1];
 // one.push(2, 2, 2);
@@ -40,3 +46,18 @@
 // } else {
 //     alert ('Не угадал!');
 // }
+
+//  let alphabet = 'abcdef';
+//  let arrayAlpha = alphabet.split('');
+//  arrayAlpha = arrayAlpha.reverse();
+//  arrayAlpha = arrayAlpha.join('');
+//  console.log(arrayAlpha);
+
+let numbs = [[1, 2, 3,],[4, 5, 6]];
+let flatten = [];
+for (let arr of numbs) {
+    for (let num of arr) {
+         flatten.push(num);
+    }
+}
+console.log(flatten);
