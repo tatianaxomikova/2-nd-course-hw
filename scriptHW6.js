@@ -62,10 +62,14 @@
 // }
 // console.log(flatten);
 
-const sum = [2,5,6,1,9,];
-for (let i = 0; i < sum.length-1; i++) {
-    const currentElement = sum[i];
-    const nextElement = sum[i+1];
-    const amount = currentElement + nextElement;
-    console.log(amount);
-}
+// const sum = [2,5,6,1,9,];
+// for (let i = 0; i < sum.length-1; i++) {
+//     const currentElement = sum[i];
+//     const nextElement = sum[i+1];
+//     const amount = currentElement + nextElement;
+//     console.log(amount);
+// }
+
+const square = [2,5,6,1,9,];
+let result = square.map(item => item**2);
+console.log(result);
