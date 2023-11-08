@@ -53,11 +53,19 @@
 //  arrayAlpha = arrayAlpha.join('');
 //  console.log(arrayAlpha);
 
-let numbs = [[1, 2, 3,],[4, 5, 6]];
-let flatten = [];
-for (let arr of numbs) {
-    for (let num of arr) {
-         flatten.push(num);
-    }
+// let numbs = [[1, 2, 3,],[4, 5, 6]];
+// let flatten = [];
+// for (let arr of numbs) {
+//     for (let num of arr) {
+//          flatten.push(num);
+//     }
+// }
+// console.log(flatten);
+
+const sum = [2,5,6,1,9,];
+for (let i = 0; i < sum.length-1; i++) {
+    const currentElement = sum[i];
+    const nextElement = sum[i+1];
+    const amount = currentElement + nextElement;
+    console.log(amount);
 }
-console.log(flatten);
