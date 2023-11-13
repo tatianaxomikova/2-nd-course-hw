@@ -74,21 +74,38 @@
 // let result = square.map(item => item**2);
 // console.log(result);
 
-function getLengthWords(array) {
-let lengths = [];
-for (let i = 0; i < array.length; i++) {
-    if (typeof array[i] === 'string'){
-        let words = array[i].split('');
-        for (let j = 0; j < words.length; j++){
-            lengths.push(words[j].length);
-        }
+//   function getLengthWords(array) {
+//     let lengths = [];
+    
+//     for (let i = 0; i < array.length; i++) {
+//       if (typeof array[i] === 'string') {
+//         let words = array[i].split(' ');
+        
+//         for (let j = 0; j < words.length; j++) {
+//           lengths.push(words[j].length);
+//         }
+//       }
+//     }
+    
+//     return lengths;
+//   }
+  
+//   let wordsArray = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+//   let result = getLengthWords(wordsArray);
+//   console.log(result);
+  
+
+function filterPositive(array) {
+     let filteredArray = [];
+    
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] < 0) {
+        filteredArray.push(array[i]);
+      }
     }
-}
-return length;
-}
-
-let wordsArray = ['слово', '', 'слог', 'длинное предложение', 'буква'];
-let result = getLengthWords(wordsArray);
-console.log(result);
-
-
+    
+    return filteredArray;
+  }
+  
+  console.log(filterPositive([-1, 0, 5, -10, 56])); 
+  console.log(filterPositive([-25, 25, 0, -1000, -2]));
