@@ -70,6 +70,25 @@
 //     console.log(amount);
 // }
 
-const square = [2,5,6,1,9,];
-let result = square.map(item => item**2);
+// const square = [2,5,6,1,9,];
+// let result = square.map(item => item**2);
+// console.log(result);
+
+function getLengthWords(array) {
+let lengths = [];
+for (let i = 0; i < array.length; i++) {
+    if (typeof array[i] === 'string'){
+        let words = array[i].split('');
+        for (let j = 0; j < words.length; j++){
+            lengths.push(words[j].length);
+        }
+    }
+}
+return length;
+}
+
+let wordsArray = ['слово', '', 'слог', 'длинное предложение', 'буква'];
+let result = getLengthWords(wordsArray);
 console.log(result);
+
+
