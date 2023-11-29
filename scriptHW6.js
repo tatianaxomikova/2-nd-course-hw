@@ -95,17 +95,17 @@
 //   console.log(result);
   
 
-function filterPositive(array) {
-     let filteredArray = [];
+// function filterPositive(array) {
+//      let filteredArray = [];
     
-    for (let i = 0; i < array.length; i++) {
-      if (array[i] < 0) {
-        filteredArray.push(array[i]);
-      }
-    }
+//     for (let i = 0; i < array.length; i++) {
+//       if (array[i] < 0) {
+//         filteredArray.push(array[i]);
+//       }
+//     }
     
-    return filteredArray;
-  }
+//     return filteredArray;
+//   }
   
-  console.log(filterPositive([-1, 0, 5, -10, 56])); 
-  console.log(filterPositive([-25, 25, 0, -1000, -2]));
+//   console.log(filterPositive([-1, 0, 5, -10, 56])); 
+//   console.log(filterPositive([-25, 25, 0, -1000, -2]));
