@@ -31,16 +31,50 @@
 // console.log(getRandomInt(1, 10));
 
 
-function getRandomArrNumbers(num) {
-    const length = Math.floor(num / 2);
-    const randomArray = [];
-    for (let i = 0; i < length; i++) {
-      randomArray.push(Math.floor(Math.random() * (num + 1)));
-    }
-    return randomArray;
-  }
+// function getRandomArrNumbers(num) {
+//    const length = Math.floor(num / 2);
+//    const randomArray = [];
+//    for (let i = 0; i < length; i++) {
+//      randomArray.push(Math.floor(Math.random() * (num + 1)));
+//    }
+//    return randomArray;
+//   }
   
-  console.log(getRandomArrNumbers(7)); 
-  console.log(getRandomArrNumbers(12)); 
+// console.log(getRandomArrNumbers(7)); 
+// console.log(getRandomArrNumbers(12)); 
   
+
+// function getRandomInteger(min, max) {
+//     return Math.floor(Math.random() * (max - min + 1)) + min;
+//   }
+  
+// console.log(getRandomInteger(1, 10)); 
+
+
+// let currentDate = new Date();
+// console.log(currentDate);
+
+
+// let currentDate = new Date();
+// currentDate.setDate(currentDate.getDate() + 73);
+// console.log(currentDate);
+
+  
+// function formatDate(date) {
+//     const daysOfWeek = ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'];
+//     const months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+  
+//     const day = date.getDate();
+//     const month = months[date.getMonth()];
+//     const year = date.getFullYear();
+//     const dayOfWeek = daysOfWeek[date.getDay()];
+//     const timeStr = date.toLocaleTimeString();
+  
+//     return `Дата: ${day} ${month} ${year} - это ${dayOfWeek}. Время: ${timeStr}`;
+//   }
+  
+//   let currentDate = new Date();
+//   console.log(formatDate(currentDate));
+  
+
 
