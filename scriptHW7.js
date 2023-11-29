@@ -75,6 +75,20 @@
   
 //   let currentDate = new Date();
 //   console.log(formatDate(currentDate));
-  
 
 
+function fillInTheWords() {
+let fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+fruits.sort(() => Math.random() - 0.5);
+alert(fruits);
+let firstFruit = prompt("Чему равнялся первый элемент массива?");
+let lastFruit = prompt("Чему равнялся последний элемент массива?");
+
+if (firstFruit === fruits[0] && lastFruit === fruits[fruits.length - 1]) {
+  alert("Поздравляю! Вы угадали оба элемента!");
+} else if (firstFruit === fruits[0] || lastFruit === fruits[fruits.length - 1]) {
+  alert("Вы были близки к победе!");
+} else {
+  alert("К сожалению, вы ответили неверно.");
+}
+}
