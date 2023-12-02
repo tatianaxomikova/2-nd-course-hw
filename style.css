@@ -118,8 +118,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 459px;
+  padding-bottom: 234px;
   padding-left: 120px;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: space-around;
 }
 .play_text {
   width: 584px;
@@ -148,8 +152,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 459px;
+  padding-bottom: 239px;
   padding-left: 120px;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: space-around;
 }
 .play1_text {
   width: 584px;
