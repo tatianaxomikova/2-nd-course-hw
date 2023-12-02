@@ -117,8 +117,12 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 459px;
+  padding-bottom: 234px;
   padding-left: 120px;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: space-around;
   &_text {
     width: 584px;
     display: flex;
@@ -139,6 +143,26 @@ body {
     font-style: normal;
     font-weight: 300;
     line-height: 32px;
+  }
+}
+
+.play1 {
+  background-image: url(img/Play1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 239px;
+  padding-left: 120px;
+  display: flex;
+  align-items: flex-end;
+  align-content: center;
+  justify-content: space-around;
+  &_text {
+    width: 584px;
+    display: flex;
+    flex-direction: column;
+    box-sizing:border-box;
+    gap: 32px;
   }
 }
 
